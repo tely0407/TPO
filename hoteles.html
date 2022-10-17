@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link rel="stylesheet" href="../pages/stylespages.css" target="_blank" />
+<title> Hoteles</title> 
+</head>
+<body>
+    <header>
+      <section>
+        <nav class="nav-Bar">
+     
+     <div>
+              <aside>
+                <nav>
+              
+                <ul class="nav-Bar__nav-linksContainer">
+                  <!--estos son vinculos del menu a otras paginas-->
+                  <li class="nav-Bar__link"><a href="/index.html" target="_self" style="text-decoration:none">Home</a></li>
+                  <li class="nav-Bar__link"><a href="dondeIr.html" target="_self" style="text-decoration:none">Donde ir</a></li>
+                  <li class="nav-Bar__link"><a href="queHacer.html" target="_self" style="text-decoration:none">Que Hacer </a></li>
+                  <li class="nav-Bar__link"><a href="hoteles.html" target="_self"style="text-decoration:none">Hoteles</a></li>
+                  <li class="nav-Bar__link"><a href="contacto.html" target="_self"style="text-decoration:none">Contacto</a></li>
+              </ul>
+              <div class="nav-Bar__nav-button">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+                  <div class="line4"></div>
+                  <div class="line5"></div>
+              </div>
+              </nav>
+              </aside>
+      </section>
+    </header>
+    <main class="Hoteles">
+      <div class="slider owl-carousel">
+        <div class="card">
+         
+          <div class="card__content">
+            <div class="card__title">
+              <h1>Hoteles Lujosos</h1>
+            </div>
+            <div class="luxory">
+                <a target="_blank"
+                      href="https://www.luxuryhotelsguides.com/?ufi=-979186&gclid=CjwKCAjwp9qZBhBkEiwAsYFsb3l2I3vsgYUuO5GG75VfAUQDj7Xl7X9I1_sZeLP8DBdHuqbNJ10mLhoCiKsQAvD_BwE">
+                          <img src="../img/pics/luxory.png"  alt="" height="200px" right="-200" width="200px"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider owl-carousel">
+            <div class="card">
+             
+              <div class="card__content">
+                <div class="card__title" >
+                  <h1>Apartamentos en alquiler</h1>
+                </div>
+                <div class="aparts">
+                    <a target="_blank"
+                          href="https://argentinarentapart.com/web/index.php">
+                              <img src="../img/pics/apart.png"  alt="" height="200px" right="-200" width="200px"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider owl-carousel">
+                <div class="card">
+                 
+                  <div class="card__content">
+                    <div class="card__title">
+                      <h1>Hostels</h1>
+                    </div>
+                    <div class="hostel">
+                        <a target="_blank"
+                              href="https://www.spanish.hostelworld.com/Albergues/Buenos-Aires/Argentina">
+                                  <img src="../img/pics/hostels.jpg"  alt="" height="200px" right="-200" width="200px"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider owl-carousel">
+                    <div class="card">
+                     
+                      <div class="card__content">
+                        <div class="card__title">
+                          <h1>Bed and Breakfast</h1>
+                        </div>
+                        <div class="aparts">
+                            <a target="_blank"
+                                  href="https://beds-and-breakfast.com/es/ciudad-autonoma-de-buenos-aires/">
+                                      <img src= "../img/pics/byb.png"   alt="" height="200px" right="-200" width="200px"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+
+       
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   
+    <script>
+        $(".slider").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2000, //2000ms = 2s;
+          autoplayHoverPause: true,
+        });
+      </script>
+    
+  </body>
+</html>
